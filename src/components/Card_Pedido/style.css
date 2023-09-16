@@ -1,0 +1,74 @@
+* {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(../../assets/img/background.png);
+    background-size: cover;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    align-items: center;
+    color: black;
+}
+
+.geral{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card_pedido{
+    background-color: white;
+    width: 400px;
+    height: 170px;
+    border-radius: 11px 11px 0px 0px;
+}
+
+img{
+    width: 100px;
+}
+
+.header_card8, .header_card10{
+    background-color: #FFEE56;
+    width: auto;
+    height: 37px;
+    border-radius: 11px 11px 0px 0px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.header_card9{
+    background-color: #C7FF85;
+    width: auto;
+    height: 37px;
+    border-radius: 11px 11px 0px 0px;
+    font-weight: bold;
+    text-align: center;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+}
+
+.conteudo_card{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 5px;
+    width: 380px;
+}
+
+.info_card{
+    width: 70%;
+}
+
+.peca{
+    width: 20%;
+}
+
+.agrupamento_pedido{
+    display: flex;
+    flex-direction: column; 
+    justify-content: space-between;
+    height: 350px;
+}
